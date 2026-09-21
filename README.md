@@ -72,9 +72,3 @@ about to get.
     tests/             host-side test harness (./run.sh)
 
 See `MochiWeb_v2_Documentation.pdf` for the full explanation.
-
-## Credit
-Frames converted from GIFs in
-github.com/huykhoong/esp32_dasai_mochi_clone_and_how_to, captured from a Dasai
-Mochi product video. Personal use only; replace the artwork before shipping
-anything.
