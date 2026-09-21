@@ -71,7 +71,7 @@ void settingsDefaults() {
   S.appMode     = APP_MOCHI;
   S.gifSpeed    = DEF_GIF_SPEED;
   S.gifDelay    = DEF_GIF_DELAY;
-  S.gifDefault  = 1;              // Happy
+  S.gifDefault  = 1;              // Stuck
   S.gifIntro    = 0;              // Intro
   S.gifTap      = 4;              // Excited
   S.gifDouble   = 6;              // Love

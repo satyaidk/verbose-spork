@@ -1,10 +1,10 @@
-// Happy - 75 frames, 128x64, XOR-delta + PackBits
+// Stuck - 75 frames, 128x64, XOR-delta + PackBits
 #pragma once
 #include <Arduino.h>
 
-#define HAPPY_FRAMES 75
+#define STUCK_FRAMES 75
 
-const uint16_t happy_offsets[76] PROGMEM = {
+const uint16_t stuck_offsets[76] PROGMEM = {
   0, 761, 799, 853, 903, 943, 973, 1031, 1078, 1141, 1193, 1300, 1359, 1472, 1529, 1673,
   1772, 1859, 1924, 1988, 2065, 2156, 2238, 2319, 2367, 2436, 2494, 2565, 2615, 2660, 2706, 2779,
   2863, 2925, 2973, 3021, 3071, 3153, 3201, 3270, 3323, 3386, 3428, 3464, 3519, 3570, 3598, 3685,
@@ -12,7 +12,7 @@ const uint16_t happy_offsets[76] PROGMEM = {
   4607, 5243, 5320, 5372, 5410, 6068, 6762, 7368, 8055, 8577, 8682, 8876
 };
 
-const uint8_t happy_data[8876] PROGMEM = {
+const uint8_t stuck_data[8876] PROGMEM = {
   0x81, 0x00, 0xf5, 0x00, 0x01, 0xff, 0xf8, 0xfd, 0x00, 0x02, 0x1f, 0xff, 0x80, 0xfb, 0x00, 0x02,
   0x0f, 0xff, 0xfe, 0xfd, 0x00, 0x02, 0x7f, 0xff, 0xf0, 0xfb, 0x00, 0x00, 0x3f, 0xff, 0xff, 0x00,
   0x80, 0xff, 0x00, 0x00, 0x01, 0xff, 0xff, 0x00, 0xfc, 0xfb, 0x00, 0x00, 0x7f, 0xff, 0xff, 0x00,

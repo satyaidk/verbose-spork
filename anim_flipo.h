@@ -1,10 +1,10 @@
-// Happy2 - 75 frames, 128x64, XOR-delta + PackBits
+// Flipo - 75 frames, 128x64, XOR-delta + PackBits
 #pragma once
 #include <Arduino.h>
 
-#define HAPPY2_FRAMES 75
+#define FLIPO_FRAMES 75
 
-const uint16_t happy2_offsets[76] PROGMEM = {
+const uint16_t flipo_offsets[76] PROGMEM = {
   0, 568, 964, 1073, 1314, 1413, 1461, 1499, 1551, 1593, 1657, 1717, 1785, 1831, 1893, 1937,
   2042, 2257, 2539, 2703, 2846, 3196, 3380, 3454, 3506, 3536, 3584, 3623, 3669, 3702, 3754, 3791,
   3827, 3859, 3891, 3943, 3983, 4032, 4085, 4140, 4173, 4216, 4270, 4378, 4533, 4711, 4888, 5092,
@@ -12,7 +12,7 @@ const uint16_t happy2_offsets[76] PROGMEM = {
   8872, 8922, 8980, 9023, 9095, 9134, 9232, 9344, 9534, 9738, 9954, 10110
 };
 
-const uint8_t happy2_data[10110] PROGMEM = {
+const uint8_t flipo_data[10110] PROGMEM = {
   0xb7, 0x00, 0x01, 0x07, 0xc0, 0xf3, 0x00, 0x01, 0x3f, 0xf0, 0xf3, 0x00, 0x01, 0xff, 0xf8, 0xf4,
   0x00, 0x02, 0x01, 0xff, 0xfc, 0xf4, 0x00, 0x02, 0x03, 0xff, 0xfe, 0xf4, 0x00, 0x00, 0x03, 0xff,
   0xff, 0xf4, 0x00, 0x00, 0x07, 0xff, 0xff, 0xf6, 0x00, 0x02, 0x03, 0xe0, 0x07, 0xff, 0xff, 0x00,
