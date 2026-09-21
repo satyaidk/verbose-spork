@@ -1,4 +1,4 @@
-# MochiWeb 2.0
+# Octo A Desk Gadget 1.0
 
 Two apps on one ESP32-C3 SuperMini, sharing one screen, one touch pad and one
 web controller.
