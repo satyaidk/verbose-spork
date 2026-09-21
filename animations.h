@@ -51,7 +51,7 @@ const uint8_t ANIM_COUNT = sizeof(ANIMS) / sizeof(ANIMS[0]);
 
 // Index of each animation, in the order listed above
 #define ANIM_INTRO        0
-#define ANIM_HAPPY        1
+#define ANIM_STUCK        1
 #define ANIM_HAPPY2       2
 #define ANIM_CONTENT      3
 #define ANIM_EXCITED2     4
