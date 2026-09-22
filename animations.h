@@ -18,7 +18,7 @@
 #include "anim_frustrated.h"
 #include "anim_angry.h"
 #include "anim_angry2.h"
-#include "anim_sleepy.h"
+#include "anim_speed.h"
 #include "anim_sleepy3.h"
 
 struct Anim {
@@ -43,7 +43,7 @@ const Anim ANIMS[] = {
   { "Frustrated ", frustrated_data, frustrated_offsets, FRUSTRATED_FRAMES },
   { "Angry      ", angry_data, angry_offsets, ANGRY_FRAMES },
   { "Angry2     ", angry2_data, angry2_offsets, ANGRY2_FRAMES },
-  { "Sleepy     ", sleepy_data, sleepy_offsets, SLEEPY_FRAMES },
+  { "Speed      ", speed_data, speed_offsets, SPEED_FRAMES },
   { "Sleepy2    ", sleepy3_data, sleepy3_offsets, SLEEPY3_FRAMES },
 };
 
@@ -64,5 +64,5 @@ const uint8_t ANIM_COUNT = sizeof(ANIMS) / sizeof(ANIMS[0]);
 #define ANIM_FRUSTRATED   11
 #define ANIM_ANGRY        12
 #define ANIM_ANGRY2       13
-#define ANIM_SLEEPY       14
+#define ANIM_SPEED        14
 #define ANIM_SLEEPY3      15

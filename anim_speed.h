@@ -1,10 +1,10 @@
-// Sleepy - 76 frames, 128x64, XOR-delta + PackBits
+// Speed - 76 frames, 128x64, XOR-delta + PackBits
 #pragma once
 #include <Arduino.h>
 
-#define SLEEPY_FRAMES 76
+#define SPEED_FRAMES 76
 
-const uint16_t sleepy_offsets[77] PROGMEM = {
+const uint16_t speed_offsets[77] PROGMEM = {
   0, 494, 616, 763, 880, 939, 1028, 1084, 1119, 1143, 1187, 1273, 1338, 1387, 1462, 1588,
   1734, 1859, 2000, 2113, 2220, 2307, 2373, 2474, 2616, 2799, 2957, 3139, 3331, 3520, 3703, 3909,
   4091, 4269, 4436, 4613, 4751, 4914, 5052, 5210, 5326, 5467, 5579, 5698, 5781, 5852, 5944, 6042,
@@ -12,7 +12,7 @@ const uint16_t sleepy_offsets[77] PROGMEM = {
   8026, 8152, 8214, 8342, 8477, 8528, 8580, 8633, 8682, 8737, 8784, 8898, 9057
 };
 
-const uint8_t sleepy_data[9057] PROGMEM = {
+const uint8_t speed_data[9057] PROGMEM = {
   0xaa, 0x00, 0x01, 0x03, 0x80, 0xf4, 0x00, 0x03, 0x04, 0x03, 0x80, 0x40, 0xf5, 0x00, 0x03, 0x0f,
   0x03, 0x80, 0xe0, 0xf5, 0x00, 0x03, 0x0f, 0x03, 0x81, 0xe0, 0xf5, 0x00, 0x03, 0x0f, 0x03, 0x81,
   0xe0, 0xf5, 0x00, 0x03, 0x0f, 0x01, 0x81, 0xe0, 0xf6, 0x00, 0x05, 0x08, 0x07, 0x80, 0x03, 0xe0,
