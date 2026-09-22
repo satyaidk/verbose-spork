@@ -9,7 +9,7 @@
 #include "anim_flipo.h"
 #include "anim_cute.h"
 #include "anim_game.h"
-#include "anim_laugh.h"
+#include "anim_smile.h"
 #include "anim_love.h"
 #include "anim_proud.h"
 #include "anim_relaxed.h"
@@ -34,7 +34,7 @@ const Anim ANIMS[] = {
   { "Flipo      ", flipo_data, flipo_offsets, FLIPO_FRAMES },
   { "Cute       ", cute_data, cute_offsets, CUTE_FRAMES },
   { "Game       ", game_data, game_offsets, GAME_FRAMES },
-  { "Laugh      ", laugh_data, laugh_offsets, LAUGH_FRAMES },
+  { "Smile      ", smile_data, smile_offsets, SMILE_FRAMES },
   { "Love       ", love_data, love_offsets, LOVE_FRAMES },
   { "Proud      ", proud_data, proud_offsets, PROUD_FRAMES },
   { "Relaxed    ", relaxed_data, relaxed_offsets, RELAXED_FRAMES },
@@ -55,7 +55,7 @@ const uint8_t ANIM_COUNT = sizeof(ANIMS) / sizeof(ANIMS[0]);
 #define ANIM_FLIPO        2
 #define ANIM_CUTE         3
 #define ANIM_GAME         4
-#define ANIM_LAUGH        5
+#define ANIM_SMILE        5
 #define ANIM_LOVE         6
 #define ANIM_PROUD        7
 #define ANIM_RELAXED      8

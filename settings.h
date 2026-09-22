@@ -75,7 +75,7 @@ void settingsDefaults() {
   S.gifIntro    = 0;              // Intro
   S.gifTap      = 4;              // Game
   S.gifDouble   = 6;              // Love
-  S.gifTriple   = 5;              // Laugh
+  S.gifTriple   = 5;              // Smile
   S.gifLong     = 14;             // Sleepy
   S.enabledMask = 0xFFFFFFFFUL;   // every clip in rotation; trimmed at load
   S.negative    = false;
