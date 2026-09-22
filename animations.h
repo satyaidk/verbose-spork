@@ -14,7 +14,7 @@
 #include "anim_proud.h"
 #include "anim_relaxed.h"
 #include "anim_music.h"
-#include "anim_embarrassed.h"
+#include "anim_sleepy.h"
 #include "anim_frustrated.h"
 #include "anim_angry.h"
 #include "anim_angry2.h"
@@ -39,7 +39,7 @@ const Anim ANIMS[] = {
   { "Proud      ", proud_data, proud_offsets, PROUD_FRAMES },
   { "Relaxed    ", relaxed_data, relaxed_offsets, RELAXED_FRAMES },
   { "Music      ", music_data, music_offsets, MUSIC_FRAMES },
-  { "Embarrassed", embarrassed_data, embarrassed_offsets, EMBARRASSED_FRAMES },
+  { "Sleepy     ", sleepy_data, sleepy_offsets, SLEEPY_FRAMES },
   { "Frustrated ", frustrated_data, frustrated_offsets, FRUSTRATED_FRAMES },
   { "Angry      ", angry_data, angry_offsets, ANGRY_FRAMES },
   { "Angry2     ", angry2_data, angry2_offsets, ANGRY2_FRAMES },
@@ -60,7 +60,7 @@ const uint8_t ANIM_COUNT = sizeof(ANIMS) / sizeof(ANIMS[0]);
 #define ANIM_PROUD        7
 #define ANIM_RELAXED      8
 #define ANIM_MUSIC        9
-#define ANIM_EMBARRASSED  10
+#define ANIM_SLEEPY       10
 #define ANIM_FRUSTRATED   11
 #define ANIM_ANGRY        12
 #define ANIM_ANGRY2       13
