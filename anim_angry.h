@@ -1,10 +1,10 @@
-// Angry2 - 75 frames, 128x64, XOR-delta + PackBits
+// Angry - 75 frames, 128x64, XOR-delta + PackBits
 #pragma once
 #include <Arduino.h>
 
-#define ANGRY2_FRAMES 75
+#define ANGRY_FRAMES 75
 
-const uint16_t angry2_offsets[76] PROGMEM = {
+const uint16_t angry_offsets[76] PROGMEM = {
   0, 363, 595, 1001, 1394, 1725, 1990, 2083, 2150, 2379, 2510, 2583, 2668, 2779, 2879, 3213,
   3592, 3919, 4553, 5022, 5493, 5729, 6035, 6178, 6311, 6492, 6593, 6716, 6888, 7094, 7350, 7506,
   7641, 7831, 8075, 8265, 8561, 8805, 9004, 9503, 9885, 10290, 10604, 10959, 11338, 11628, 11838, 12130,
@@ -12,7 +12,7 @@ const uint16_t angry2_offsets[76] PROGMEM = {
   17487, 17813, 18083, 18447, 18760, 19021, 19238, 19564, 19851, 20256, 20578, 20821
 };
 
-const uint8_t angry2_data[20821] PROGMEM = {
+const uint8_t angry_data[20821] PROGMEM = {
   0xac, 0x00, 0x06, 0x7f, 0xff, 0x80, 0x00, 0x1f, 0xff, 0xf8, 0xf8, 0x00, 0xff, 0xff, 0x04, 0xc0,
   0x00, 0x1f, 0xff, 0xf8, 0xf8, 0x00, 0xff, 0xff, 0x04, 0xe0, 0x00, 0x0f, 0xff, 0xfc, 0xf8, 0x00,
   0xff, 0xff, 0x04, 0xe0, 0x00, 0x0f, 0xff, 0xfc, 0xf8, 0x00, 0xff, 0xff, 0x04, 0xf0, 0x00, 0x0f,
