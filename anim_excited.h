@@ -1,10 +1,10 @@
-// Sleepy2 - 75 frames, 128x64, XOR-delta + PackBits
+// Excited - 75 frames, 128x64, XOR-delta + PackBits
 #pragma once
 #include <Arduino.h>
 
-#define SLEEPY3_FRAMES 75
+#define EXCITED_FRAMES 75
 
-const uint16_t sleepy3_offsets[76] PROGMEM = {
+const uint16_t excited_offsets[76] PROGMEM = {
   0, 427, 817, 1052, 1342, 1806, 1947, 2304, 2487, 2793, 3061, 3342, 3617, 3885, 4136, 4350,
   4498, 4642, 4783, 4934, 5048, 5271, 5583, 5748, 5910, 6053, 6179, 6293, 6405, 6545, 6695, 6849,
   7020, 7169, 7486, 7789, 8003, 8250, 8511, 8819, 9128, 9409, 9815, 10263, 10692, 11112, 11554, 11977,
@@ -12,7 +12,7 @@ const uint16_t sleepy3_offsets[76] PROGMEM = {
   16250, 16509, 16947, 17378, 17626, 17660, 17686, 17714, 17744, 17774, 17796, 17830
 };
 
-const uint8_t sleepy3_data[17830] PROGMEM = {
+const uint8_t excited_data[17830] PROGMEM = {
   0x81, 0x00, 0xae, 0x00, 0x01, 0x03, 0x80, 0xf3, 0x00, 0x01, 0x0f, 0xc0, 0xf3, 0x00, 0x01, 0x1f,
   0xfc, 0xf3, 0x00, 0x01, 0x3f, 0xfc, 0xfc, 0x00, 0x01, 0x3f, 0x80, 0xfa, 0x00, 0x02, 0x3f, 0xff,
   0xfe, 0xfe, 0x00, 0x02, 0x03, 0xff, 0xfc, 0xfa, 0x00, 0x00, 0x3f, 0xff, 0xff, 0x00, 0xc0, 0xff,
