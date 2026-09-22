@@ -1,10 +1,10 @@
-// Angry - 75 frames, 128x64, XOR-delta + PackBits
+// Dull - 75 frames, 128x64, XOR-delta + PackBits
 #pragma once
 #include <Arduino.h>
 
-#define ANGRY_FRAMES 75
+#define DULL_FRAMES 75
 
-const uint16_t angry_offsets[76] PROGMEM = {
+const uint16_t dull_offsets[76] PROGMEM = {
   0, 432, 899, 1178, 1793, 2462, 2498, 3092, 3132, 3193, 3242, 3395, 3557, 3968, 4575, 5223,
   5357, 5582, 5618, 5640, 5680, 5718, 5738, 5766, 5782, 5806, 5889, 5978, 6178, 6296, 6482, 6566,
   6660, 6750, 6831, 6910, 6993, 7023, 7062, 7112, 7361, 7605, 8300, 8649, 8711, 8763, 8795, 8847,
@@ -12,7 +12,7 @@ const uint16_t angry_offsets[76] PROGMEM = {
   10379, 10442, 10522, 10602, 10652, 10718, 10760, 10978, 11330, 11843, 12109, 12381
 };
 
-const uint8_t angry_data[12381] PROGMEM = {
+const uint8_t dull_data[12381] PROGMEM = {
   0x81, 0x00, 0x81, 0x00, 0xc8, 0x00, 0x01, 0xf1, 0x80, 0xfa, 0x00, 0x01, 0x7f, 0xf8, 0xfd, 0x00,
   0xfe, 0xff, 0x00, 0x80, 0xfc, 0x00, 0x00, 0x01, 0xff, 0xff, 0x00, 0xe0, 0xff, 0x00, 0x00, 0x01,
   0xfe, 0xff, 0x00, 0xc0, 0xfc, 0x00, 0x00, 0x01, 0xff, 0xff, 0x00, 0xf0, 0xff, 0x00, 0x00, 0x03,
