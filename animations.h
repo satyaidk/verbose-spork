@@ -19,7 +19,7 @@
 #include "anim_dull.h"
 #include "anim_angry.h"
 #include "anim_speed.h"
-#include "anim_sleepy3.h"
+#include "anim_excited.h"
 
 struct Anim {
   const char*     name;
@@ -44,7 +44,7 @@ const Anim ANIMS[] = {
   { "Dull       ", dull_data, dull_offsets, DULL_FRAMES },
   { "Angry      ", angry_data, angry_offsets, ANGRY_FRAMES },
   { "Speed      ", speed_data, speed_offsets, SPEED_FRAMES },
-  { "Sleepy2    ", sleepy3_data, sleepy3_offsets, SLEEPY3_FRAMES },
+  { "Excited    ", excited_data, excited_offsets, EXCITED_FRAMES },
 };
 
 const uint8_t ANIM_COUNT = sizeof(ANIMS) / sizeof(ANIMS[0]);
@@ -65,4 +65,4 @@ const uint8_t ANIM_COUNT = sizeof(ANIMS) / sizeof(ANIMS[0]);
 #define ANIM_DULL         12
 #define ANIM_ANGRY        13
 #define ANIM_SPEED        14
-#define ANIM_SLEEPY3      15
+#define ANIM_EXCITED      15
