@@ -1,10 +1,10 @@
-// Laugh - 75 frames, 128x64, XOR-delta + PackBits
+// Smile - 75 frames, 128x64, XOR-delta + PackBits
 #pragma once
 #include <Arduino.h>
 
-#define LAUGH_FRAMES 75
+#define SMILE_FRAMES 75
 
-const uint16_t laugh_offsets[76] PROGMEM = {
+const uint16_t smile_offsets[76] PROGMEM = {
   0, 164, 306, 406, 508, 585, 875, 1072, 1183, 1260, 1286, 1316, 1350, 1378, 1580, 1600,
   1626, 1654, 1675, 1695, 2065, 2218, 2601, 3032, 3467, 3706, 3998, 4228, 4282, 4339, 4371, 4395,
   4429, 4477, 4513, 4546, 4960, 5372, 5688, 5888, 6375, 6813, 7089, 7301, 7342, 7384, 7414, 7456,
@@ -12,7 +12,7 @@ const uint16_t laugh_offsets[76] PROGMEM = {
   9542, 9580, 9615, 9658, 9718, 9758, 9794, 9824, 9860, 9909, 9944, 10018
 };
 
-const uint8_t laugh_data[10018] PROGMEM = {
+const uint8_t smile_data[10018] PROGMEM = {
   0x81, 0x00, 0x81, 0x00, 0x81, 0x00, 0xf9, 0x00, 0x00, 0x40, 0xf3, 0x00, 0x01, 0x01, 0xe0, 0xf3,
   0x00, 0x01, 0x01, 0xe0, 0xf3, 0x00, 0x01, 0x03, 0xe0, 0xf3, 0x00, 0x01, 0x03, 0xe0, 0xf3, 0x00,
   0x01, 0x01, 0xe0, 0xf3, 0x00, 0x01, 0x01, 0xc0, 0xef, 0x00, 0x01, 0x0f, 0xc0, 0xf4, 0x00, 0x02,
