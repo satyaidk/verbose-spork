@@ -10,7 +10,7 @@
 #include "anim_cute.h"
 #include "anim_game.h"
 #include "anim_smile.h"
-#include "anim_love.h"
+#include "anim_cry.h"
 #include "anim_proud.h"
 #include "anim_relaxed.h"
 #include "anim_music.h"
@@ -35,7 +35,7 @@ const Anim ANIMS[] = {
   { "Cute       ", cute_data, cute_offsets, CUTE_FRAMES },
   { "Game       ", game_data, game_offsets, GAME_FRAMES },
   { "Smile      ", smile_data, smile_offsets, SMILE_FRAMES },
-  { "Love       ", love_data, love_offsets, LOVE_FRAMES },
+  { "Cry        ", cry_data, cry_offsets, CRY_FRAMES },
   { "Proud      ", proud_data, proud_offsets, PROUD_FRAMES },
   { "Relaxed    ", relaxed_data, relaxed_offsets, RELAXED_FRAMES },
   { "Music      ", music_data, music_offsets, MUSIC_FRAMES },
@@ -56,7 +56,7 @@ const uint8_t ANIM_COUNT = sizeof(ANIMS) / sizeof(ANIMS[0]);
 #define ANIM_CUTE         3
 #define ANIM_GAME         4
 #define ANIM_SMILE        5
-#define ANIM_LOVE         6
+#define ANIM_CRY          6
 #define ANIM_PROUD        7
 #define ANIM_RELAXED      8
 #define ANIM_MUSIC        9
