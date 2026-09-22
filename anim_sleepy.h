@@ -1,10 +1,10 @@
-// Embarrassed - 75 frames, 128x64, XOR-delta + PackBits
+// Sleepy - 75 frames, 128x64, XOR-delta + PackBits
 #pragma once
 #include <Arduino.h>
 
-#define EMBARRASSED_FRAMES 75
+#define SLEEPY_FRAMES 75
 
-const uint16_t embarrassed_offsets[76] PROGMEM = {
+const uint16_t sleepy_offsets[76] PROGMEM = {
   0, 316, 372, 443, 506, 576, 665, 761, 856, 907, 1105, 1192, 1347, 1444, 1518, 1638,
   1717, 1839, 1931, 1997, 2109, 2196, 2263, 2341, 2431, 2497, 2615, 2677, 2809, 2868, 2934, 3180,
   3265, 3398, 3596, 3639, 3768, 3828, 3911, 4075, 4125, 4191, 4300, 4408, 4788, 5269, 5923, 6589,
@@ -12,7 +12,7 @@ const uint16_t embarrassed_offsets[76] PROGMEM = {
   8232, 8370, 8422, 8465, 8532, 8587, 8691, 8752, 8781, 8820, 8852, 8891
 };
 
-const uint8_t embarrassed_data[8891] PROGMEM = {
+const uint8_t sleepy_data[8891] PROGMEM = {
   0x81, 0x00, 0x98, 0x00, 0x01, 0x07, 0xf0, 0xf3, 0x00, 0x01, 0x1f, 0xf8, 0xf3, 0x00, 0x01, 0x3f,
   0xfc, 0xf3, 0x00, 0x01, 0x7f, 0xfe, 0xf3, 0x00, 0x01, 0xff, 0xfe, 0xf4, 0x00, 0x00, 0x01, 0xff,
   0xff, 0xf4, 0x00, 0x00, 0x01, 0xff, 0xff, 0x00, 0x80, 0xf5, 0x00, 0x00, 0x01, 0xff, 0xff, 0x00,
