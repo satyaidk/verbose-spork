@@ -1,10 +1,10 @@
-// Love - 75 frames, 128x64, XOR-delta + PackBits
+// Cry - 75 frames, 128x64, XOR-delta + PackBits
 #pragma once
 #include <Arduino.h>
 
-#define LOVE_FRAMES 75
+#define CRY_FRAMES 75
 
-const uint16_t love_offsets[76] PROGMEM = {
+const uint16_t cry_offsets[76] PROGMEM = {
   0, 377, 551, 741, 922, 1109, 1278, 1429, 1557, 1741, 1949, 2123, 2314, 2513, 2683, 2827,
   2960, 3160, 3294, 3464, 3628, 3801, 3964, 4093, 4262, 4434, 4594, 4802, 4970, 5155, 5279, 5434,
   5576, 5790, 5922, 6128, 6282, 6444, 6566, 6715, 6865, 7061, 7200, 7413, 7611, 7965, 8068, 8195,
@@ -12,7 +12,7 @@ const uint16_t love_offsets[76] PROGMEM = {
   9169, 9254, 9337, 9474, 9589, 9648, 9668, 9694, 10000, 10409, 10915, 11247
 };
 
-const uint8_t love_data[11247] PROGMEM = {
+const uint8_t cry_data[11247] PROGMEM = {
   0x81, 0x00, 0x81, 0x00, 0x81, 0x00, 0xb7, 0x00, 0x00, 0xc0, 0xf8, 0x00, 0x01, 0x7f, 0xfe, 0xfe,
   0x00, 0xff, 0xff, 0x00, 0x80, 0xfa, 0x00, 0x00, 0x07, 0xff, 0xff, 0xff, 0x00, 0x00, 0x01, 0xff,
   0xff, 0x00, 0xf0, 0xfa, 0x00, 0x00, 0x1f, 0xff, 0xff, 0x02, 0x80, 0x00, 0x03, 0xff, 0xff, 0x00,
