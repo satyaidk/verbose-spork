@@ -73,10 +73,10 @@ void settingsDefaults() {
   S.gifDelay    = DEF_GIF_DELAY;
   S.gifDefault  = 1;              // Stuck
   S.gifIntro    = 0;              // Intro
-  S.gifTap      = 4;              // Excited
-  S.gifDouble   = 6;              // Love
-  S.gifTriple   = 5;              // Laugh
-  S.gifLong     = 14;             // Sleepy
+  S.gifTap      = 4;              // Game
+  S.gifDouble   = 6;              // Cry
+  S.gifTriple   = 5;              // Smile
+  S.gifLong     = 14;             // Speed
   S.enabledMask = 0xFFFFFFFFUL;   // every clip in rotation; trimmed at load
   S.negative    = false;
 

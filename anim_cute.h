@@ -1,10 +1,10 @@
-// Content - 76 frames, 128x64, XOR-delta + PackBits
+// Cute - 76 frames, 128x64, XOR-delta + PackBits
 #pragma once
 #include <Arduino.h>
 
-#define CONTENT_FRAMES 76
+#define CUTE_FRAMES 76
 
-const uint16_t content_offsets[77] PROGMEM = {
+const uint16_t cute_offsets[77] PROGMEM = {
   0, 476, 552, 606, 863, 1328, 1745, 1900, 2359, 2530, 2706, 2773, 2795, 2986, 3030, 3064,
   3120, 3146, 3195, 3235, 3288, 3330, 3362, 3463, 3874, 4219, 4401, 4544, 4663, 4723, 4780, 4869,
   5187, 5634, 5827, 6243, 6333, 6426, 6485, 6515, 6545, 6578, 6629, 6693, 6769, 7109, 7408, 7737,
@@ -12,7 +12,7 @@ const uint16_t content_offsets[77] PROGMEM = {
   11194, 11655, 12010, 12307, 12534, 12828, 12907, 12983, 13045, 13075, 13121, 13176, 13230
 };
 
-const uint8_t content_data[13230] PROGMEM = {
+const uint8_t cute_data[13230] PROGMEM = {
   0x81, 0x00, 0xec, 0x00, 0x01, 0x01, 0xe0, 0xff, 0x00, 0x00, 0x1f, 0xf6, 0x00, 0x01, 0x03, 0xf0,
   0xff, 0x00, 0x01, 0x3f, 0x80, 0xf7, 0x00, 0x01, 0x03, 0xf8, 0xff, 0x00, 0x03, 0x3f, 0x80, 0x00,
   0x80, 0xfb, 0x00, 0x03, 0x06, 0x00, 0x07, 0xf8, 0xff, 0x00, 0x03, 0x3f, 0x80, 0x01, 0xc0, 0xfb,
