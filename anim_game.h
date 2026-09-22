@@ -1,10 +1,10 @@
-// Excited - 75 frames, 128x64, XOR-delta + PackBits
+// Game - 75 frames, 128x64, XOR-delta + PackBits
 #pragma once
 #include <Arduino.h>
 
-#define EXCITED2_FRAMES 75
+#define GAME_FRAMES 75
 
-const uint16_t excited2_offsets[76] PROGMEM = {
+const uint16_t game_offsets[76] PROGMEM = {
   0, 362, 414, 486, 583, 690, 799, 894, 1001, 1097, 1199, 1329, 1420, 1460, 1590, 1795,
   2015, 2179, 2401, 2519, 2641, 2739, 2844, 2955, 3049, 3141, 3187, 3243, 3291, 3359, 3416, 3531,
   3724, 3980, 4212, 4470, 4628, 4850, 5045, 5215, 5389, 5562, 5710, 5875, 5968, 6081, 6153, 6219,
@@ -12,7 +12,7 @@ const uint16_t excited2_offsets[76] PROGMEM = {
   7234, 7308, 7389, 7454, 7535, 7600, 7700, 7787, 7918, 8032, 8129, 8251
 };
 
-const uint8_t excited2_data[8251] PROGMEM = {
+const uint8_t game_data[8251] PROGMEM = {
   0x81, 0x00, 0xa7, 0x00, 0x00, 0x3c, 0xf8, 0x00, 0x01, 0xff, 0xe0, 0xfe, 0x00, 0x02, 0x03, 0xff,
   0xc0, 0xfa, 0x00, 0x02, 0x03, 0xff, 0xf8, 0xfe, 0x00, 0x02, 0x0f, 0xff, 0xf0, 0xfa, 0x00, 0x02,
   0x07, 0xff, 0xfc, 0xfe, 0x00, 0x02, 0x0f, 0xff, 0xf8, 0xfa, 0x00, 0x02, 0x07, 0xff, 0xfe, 0xfe,
