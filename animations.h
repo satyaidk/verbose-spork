@@ -17,7 +17,7 @@
 #include "anim_sleepy.h"
 #include "anim_happy.h"
 #include "anim_dull.h"
-#include "anim_angry2.h"
+#include "anim_angry.h"
 #include "anim_speed.h"
 #include "anim_sleepy3.h"
 
@@ -42,7 +42,7 @@ const Anim ANIMS[] = {
   { "Sleepy     ", sleepy_data, sleepy_offsets, SLEEPY_FRAMES },
   { "Happy      ", happy_data, happy_offsets, HAPPY_FRAMES },
   { "Dull       ", dull_data, dull_offsets, DULL_FRAMES },
-  { "Angry2     ", angry2_data, angry2_offsets, ANGRY2_FRAMES },
+  { "Angry      ", angry_data, angry_offsets, ANGRY_FRAMES },
   { "Speed      ", speed_data, speed_offsets, SPEED_FRAMES },
   { "Sleepy2    ", sleepy3_data, sleepy3_offsets, SLEEPY3_FRAMES },
 };
@@ -63,6 +63,6 @@ const uint8_t ANIM_COUNT = sizeof(ANIMS) / sizeof(ANIMS[0]);
 #define ANIM_SLEEPY       10
 #define ANIM_HAPPY        11
 #define ANIM_DULL         12
-#define ANIM_ANGRY2       13
+#define ANIM_ANGRY        13
 #define ANIM_SPEED        14
 #define ANIM_SLEEPY3      15
